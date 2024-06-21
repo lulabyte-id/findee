@@ -7,6 +7,7 @@ console.log(chalk.greenBright.bold('⬤  CALMAPI - Keep Calm and REST'));
 console.log(chalk.greenBright.bold('\n✔ Project: ', packageInfo.name, `v${ packageInfo.version}`));
 console.log(chalk.greenBright.bold('✔ CalmAPI Version: ', packageInfo.generatorVersion));
 console.log(chalk.greenBright('✔ Application Started'));
+
 // Load Database
 require('./system/configs/database');
 
