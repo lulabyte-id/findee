@@ -1,0 +1,43 @@
+{
+  "name": "findee",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram and WhatsApp chatbot",
+  "main": "index.js",
+  "generator": "calmapi",
+  "generatorVersion": "0.2.4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint .",
+    "start": "npm run lint && node index.js"
+  },
+  "keywords": [],
+  "author": "Bayu Hafiz",
+  "license": "MIT",
+  "homepage": "findee.lulabyte.id",
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "aws-sdk": "^2.976.0",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "humanize-string": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.8",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.5-lts.1",
+    "pluralize": "^8.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^6.0.0",
+    "mocha": "^10.4.0"
+  }
+}
